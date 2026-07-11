@@ -164,7 +164,7 @@ export const memories = [
   {
     "date": "2025-11-07",
     "title": "The First Time We Cooked Together",
-    "description": "It wasn't just a recipe we made, it was another memory. Somewhere between chopping vegetables, laughing at my mistakes, and stealing little tastes, the kitchen became one of my favourite places to be.",
+    "description": "It wasn't just a recipe we made, it was another memory. Somewhere between getting over my fear of knives, chopping vegetables, and laughing at my mistakes, the kitchen became one of my favourite places to be, with my accha.",
     "photo": "/photos/2025-11-07.jpg"
   },
   {
