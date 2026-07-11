@@ -86,7 +86,7 @@ export const memories = [
   {
     "date": "2025-08-08",
     "title": "The First Time I Lay on Your Lap While You Fed Me & We Listened to Bhajans",
-    "description": "Time stood still that day. Wrapped in bhajans, your lap, and your love, I experienced a kind of peace I didn't know my heart had been searching for.",
+    "description": "Time stood still that day. Wrapped in bhajans, on your lap, and cocooned with your love, I experienced a kind of peace I didn't know my heart had been searching for.",
     "photo": "/photos/2025-08-08.jpg"
   },
   {
