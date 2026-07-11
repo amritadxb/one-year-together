@@ -46,9 +46,17 @@ function Chapter({index,onBack,onChange,onLetter}) {
         <p className="chapter-date">{longDate(memory.date)}</p>
         <h1>{memory.title}</h1>
       </header>
-      {memory.photo ? <figure className="photo-frame"><img src={memory.photo} alt={memory.title}/></figure> :
-        <div className="photo-placeholder"><Heart size={40}/><span>some memories live beyond photographs.</span></div>}
-      <article className="memory-story"><p>{memory.description}</p></article>
+      {memory.photo && (
+  <figure className="photo-frame">
+    <img src={memory.photo} alt={memory.title} />
+  </figure>
+)}
+      <article
+  className={`memory-story ${!memory.photo ? "text-only-memory" : ""}`}
+>
+  {!memory.photo && <div className="memory-divider">♡</div>}
+  <p>{memory.description}</p>
+</article>
       <nav className="chapter-nav">
         <button disabled={index===0} onClick={()=>onChange(index-1)}><ArrowLeft size={17}/><span><small>previous memory</small>{index?memories[index-1].title:"the beginning"}</span></button>
         <button className="calendar-pill" onClick={onBack}><CalendarDays size={16}/>calendar</button>
@@ -98,7 +106,33 @@ function Calendar({onLogout}) {
   if(showLetter) return <Letter onClose={()=>setShowLetter(false)} onFinish={()=>setEnding(true)}/>;
   if(selected!==null) return <Chapter index={selected} onBack={()=>setSelected(null)} onChange={setSelected} onLetter={()=>setShowLetter(true)}/>;
   return <main className="app-page">
-    <header className="app-header"><div><p className="eyebrow title-secret" title="every date changed because of you.">a year of us</p><h1>Our Memories</h1></div><button className="logout-button" onClick={onLogout}><LogOut size={16}/>log out</button></header>
+<header className="app-header">
+  <div>
+    <p
+      className="eyebrow title-secret"
+      title="every date changed because of you."
+    >
+      a year of us
+    </p>
+
+    <h1>Our Memories</h1>
+  </div>
+
+  <div className="header-actions">
+    <button
+      className="letter-button"
+      onClick={() => setShowLetter(true)}
+    >
+      <Heart size={16} />
+      read my letter
+    </button>
+
+    <button className="logout-button" onClick={onLogout}>
+      <LogOut size={16} />
+      log out
+    </button>
+  </div>
+</header>
     <section className="calendar-card">
       <div className="calendar-toolbar">
         <div className="month-heading"><CalendarDays size={20}/><div><h2>{MONTHS[visible.getMonth()]}</h2><p>{visible.getFullYear()}</p></div></div>
@@ -118,7 +152,26 @@ function Calendar({onLogout}) {
         </button>;
       })}</div>
     </section>
-    <p className="calendar-note">every heart opens one memory from our year.</p>
+    <p className="calendar-note">
+  every heart opens one memory from our year.
+</p>
+
+<button
+  className="letter-card"
+  onClick={() => setShowLetter(true)}
+>
+  <span className="letter-card-icon">
+    <Heart size={19} />
+  </span>
+
+  <span className="letter-card-text">
+    <small>one last thing</small>
+    <strong>to my dearest accha</strong>
+    <span>you don't have to reach the final memory to read this.</span>
+  </span>
+
+  <ArrowRight size={18} />
+</button>
   </main>;
 }
 
