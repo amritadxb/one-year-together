@@ -14,7 +14,7 @@ export const memories = [
   {
     "date": "2025-07-12",
     "title": "The First Time You Called Me \"Mole\" and I Called You \"Accha\"",
-    "description": "One conversation. Two words. An entire lifetime changed. Neither of us could have known that in that tiny exchange, we'd find a father, a daughter, and a home in each other.",
+    "description": "One conversation. Two words. An entire lifetime changed. Neither of us could have known that in that tiny exchange, we'd find a dad, a daughter, and a home in each other.",
     "photo": ""
   },
   {
@@ -254,7 +254,7 @@ export const memories = [
   {
     "date": "2026-02-04",
     "title": "My First Birthday with My Accha",
-    "description": "It wasn't just another birthday—it was the first one where I celebrated it with the father my heart had found. Your love made growing a year older feel like the greatest gift of all.",
+    "description": "It wasn't just another birthday—it was the first one where I celebrated it with my dearest accha. Your love made growing a year older feel like the greatest gift of all.",
     "photo": ""
   },
   {
