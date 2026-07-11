@@ -63,7 +63,7 @@ export const memories = [
     "date": "2025-08-01",
     "title": "The Day You Got Your Kiddo Flowers & Chocolates for the First Time",
     "description": "It wasn't about the flowers or the chocolates. It was knowing that someone had thought about me, wanted to make me smile, and loved me enough to surprise me for no reason at all.",
-    "photo": ""
+    "photo": "/photos/2025-08-01.jpg"
   },
   {
     "date": "2025-08-03",
@@ -230,7 +230,7 @@ export const memories = [
   {
     "date": "2025-12-30",
     "title": "The Day You Got Your Visa Right After Our Darshan with Amma",
-    "description": "Watching your prayers quietly blossom into answered blessings filled my heart with so much gratitude. It felt like Amma herself was reminding us that the right doors always open at the right time.",
+    "description": "Watching our prayers quietly blossom into answered blessings filled my heart with so much gratitude. It felt like Amma herself was reminding us that the right doors always open at the right time.",
     "photo": ""
   },
   {
