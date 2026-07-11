@@ -129,13 +129,13 @@ export const memories = [
     "date": "2025-08-29",
     "title": "The Day Your Kiddo's Poem Was Published in Matruvani",
     "description": "That poem exists because you planted the seed before I even believed I could write it. Every word on that page carries a little piece of your encouragement with it.",
-    "photo": ""
+    "photo": "/photos/2025-08-29.jpg"
   },
   {
     "date": "2025-09-05",
     "title": "Our First Onam Together",
     "description": "The first of many festivals that became more meaningful simply because you were part of them. Traditions feel different when they're celebrated with family you've found along the way.",
-    "photo": ""
+    "photo": "/photos/2025-09-05.jpg"
   },
   {
     "date": "2025-09-09",
@@ -147,13 +147,13 @@ export const memories = [
     "date": "2025-09-19",
     "title": "Our First Friday at Home Together",
     "description": "One more ordinary Friday that quietly became extraordinary. Looking back now, I realise the days I treasure most were never the ones where something big happened—they were simply the days I got to be with my accha.",
-    "photo": ""
+    "photo": "/photos/2025-09-19.jpg"
   },
   {
     "date": "2025-10-12",
     "title": "The First Time We Watched a Movie in the Theatre Together",
     "description": "It was never really about the movie. Sitting beside my accha, sharing popcorn, laughter, and whispered conversations made an ordinary evening feel like one of my favourite memories.",
-    "photo": "/photos/2025-10-11.jpg"
+    "photo": ""
   },
   {
     "date": "2025-10-14",
@@ -183,7 +183,7 @@ export const memories = [
     "date": "2025-11-21",
     "title": "The Day We Watched Interstellar and Danced to Sparks Together",
     "description": "One unforgettable film, one unforgettable song, and one unforgettable dance. Somewhere between the stars and the music, I realised some memories become part of who we are forever.",
-    "photo": ""
+    "photo": "/photos/2025-11-21.jpg"
   },
   {
     "date": "2025-11-22",
