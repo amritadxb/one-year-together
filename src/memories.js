@@ -159,7 +159,7 @@ export const memories = [
     "date": "2025-11-01",
     "title": "The First Time You Picked Your Kiddo Up From School",
     "description": "For a little while, I got to experience something I'd always dreamed of. Walking out and seeing my accha waiting for me made an ordinary school day unforgettable.",
-    "photo": "/photos/2025-11-01.jpg"
+    "photo": ""
   },
   {
     "date": "2025-11-07",
