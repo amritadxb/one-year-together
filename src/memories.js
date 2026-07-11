@@ -284,7 +284,7 @@ export const memories = [
   {
     "date": "2026-04-15",
     "title": "The First Time You Taught Your Kiddo Sanskrit",
-    "description": "The beginning of a journey that became so much more than learning a language. With every verse you taught me, you shared another piece of your world with me.",
+    "description": "The beginning of a journey that became so much more than learning a language. With every letter you taught me, you shared another piece of your world with me.",
     "photo": ""
   },
   {
