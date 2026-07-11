@@ -69,13 +69,13 @@ export const memories = [
     "date": "2025-08-03",
     "title": "The Day I Sang Ayiram Dipangal",
     "description": "A song that once felt impossible became something I could finally offer with confidence. Knowing you believed in me made me brave enough to believe in myself.",
-    "photo": "/photos/2025-08-03.jpg"
+    "photo": ""
   },
   {
     "date": "2025-08-04",
-    "title": "The First Time You Drove All the Way Just for Five Minutes",
-    "description": "Five minutes somehow became worth every kilometre. You taught me that love measures distance very differently.",
-    "photo": ""
+    "title": "Our First Silhouette",
+    "description": "You taught your kiddo the importance and significance of Surya Deva in our lives. This image captures more than just a moment—it captures the quiet devotion, the love, and the bond that has grown between us.",
+    "photo": "/photos/2025-08-04.jpg"
   },
   {
     "date": "2025-08-07",
@@ -94,6 +94,12 @@ export const memories = [
     "title": "Our First Full Day at Home Together",
     "description": "Harry Potter, chanting, bhajans, endless cuddles, laughter, and my very first forehead kiss from my accha. If someone asked me what peace looks like, I'd simply tell them about this day.",
     "photo": "/photos/2025-08-10.jpg"
+  },
+  {
+    "date": "2025-08-11",
+    "title": "The First Time You Drove All the Way Just for Five Minutes",
+    "description": "Five minutes somehow became worth every kilometre. You taught me that love measures distance very differently.",
+    "photo": ""
   },
   {
     "date": "2025-08-16",
